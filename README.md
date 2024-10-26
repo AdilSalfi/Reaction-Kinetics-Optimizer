@@ -1,7 +1,7 @@
 # Optimization of Reaction Kinetics in Autocatalytic Batch Reactions
 
 ## Project Overview
-This project focuses on optimizing reaction rate constants $k_1$ and \( k_2 \) for an autocatalytic isothermal batch reaction, maximizing the concentration \( C_B \) over time. Using Python's SciPy library, this project models the differential equations governing the reactions and leverages optimization methods to identify values of \( k_1 \) and \( k_2 \) that achieve peak \( C_B \) concentration.
+This project focuses on optimizing reaction rate constants $k_1$ and $k_2$ for an autocatalytic isothermal batch reaction, maximizing the concentration $C_B$ over time. Using Python's SciPy library, this project models the differential equations governing the reactions and leverages optimization methods to identify values of $k_1$ and $k_2$ that achieve peak $C_B$ concentration.
 
 ## Table of Contents
 - [Background](#background)
