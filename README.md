@@ -28,13 +28,9 @@ Given experimental concentration data, we aim to find optimal values for \( k_1 
 2. **Optimization of Parameters:** Applying `scipy.optimize` to find the values of \( k_1 \) and \( k_2 \) that maximize \( C_B \).
 3. **Result Evaluation:** Analyze and visualize concentration trends, identifying peak \( C_B \) values and times.
 
-## Results
-*(Include a summary or example of the results, plots, or insights if available)*
-
 ## Tech Stack
 - **Python**: Core programming language
 - **SciPy**: For solving ODEs and parameter optimization
-- **Matplotlib** (optional): For data visualization
 
 ## How to Use
 1. **Clone the Repository:**
