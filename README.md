@@ -39,7 +39,7 @@ Given experimental concentration data, we aim to find optimal values for \( k_1 
 3. **Result Evaluation:** Analyze and visualize concentration trends, identifying peak \( C_B \) values and times.
 
 ## Results
-*(Include a summary or example of the results, plots, or insights if available)*
+![Reaction Kinetics Plot](model_fitted.png)
 
 ## Tech Stack
 - **Python**: Core programming language
