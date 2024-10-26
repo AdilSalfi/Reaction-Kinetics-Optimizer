@@ -13,9 +13,19 @@ This project focuses on optimizing reaction rate constants \( k_1 \) and \( k_2 
 
 ## Background
 The reaction under study is an autocatalytic batch reaction where the concentration changes over time according to:
+
 \[
-\frac{dC_A}{dt} = -k_1 C_A C_B, \quad \frac{dC_B}{dt} = k_1 C_B C_A - k_2 C_B, \quad \frac{dC_C}{dt} = k_2 C_B
+\frac{dC_A}{dt} = -k_1 C_A C_B
 \]
+
+\[
+\frac{dC_B}{dt} = k_1 C_B C_A - k_2 C_B
+\]
+
+\[
+\frac{dC_C}{dt} = k_2 C_B
+\]
+
 Given experimental concentration data, we aim to find optimal values for \( k_1 \) and \( k_2 \) to maximize \( C_B \) and identify the time at which this maximum occurs.
 
 ## Objectives
@@ -28,12 +38,24 @@ Given experimental concentration data, we aim to find optimal values for \( k_1 
 2. **Optimization of Parameters:** Applying `scipy.optimize` to find the values of \( k_1 \) and \( k_2 \) that maximize \( C_B \).
 3. **Result Evaluation:** Analyze and visualize concentration trends, identifying peak \( C_B \) values and times.
 
+## Results
+*(Include a summary or example of the results, plots, or insights if available)*
+
 ## Tech Stack
 - **Python**: Core programming language
 - **SciPy**: For solving ODEs and parameter optimization
+- **Matplotlib** : For data visualization
 
 ## How to Use
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/your-username/Optimization-of-Reaction-Kinetics.git
    cd Optimization-of-Reaction-Kinetics
+   
+2. **Install Dependencies: Install SciPy and Matplotlib**
+   ```bash
+   pip install scipy matplotlib
+
+3. **Run the Code: Execute the main script to model the reaction and optimize parameters**
+   ```bash
+   jupyter notebook model.ipynb
