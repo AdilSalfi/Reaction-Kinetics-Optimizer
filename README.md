@@ -49,7 +49,7 @@ Given experimental concentration data, we aim to find optimal values for $k_1$ a
 ## How to Use
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/Optimization-of-Reaction-Kinetics.git
+   git clone https://github.com/AdilSalfi/Optimization-of-Reaction-Kinetics.git
    cd Optimization-of-Reaction-Kinetics
    
 2. **Install Dependencies: Install SciPy and Matplotlib**
